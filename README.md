@@ -15,7 +15,7 @@ Key outcome of the workshop include (1) establishing a validation workflow and a
 This **in-person only** workshop is free to atttend, there will be no virtual attendance option. Attendees need to cover their own travel expense.
 
 ## Date and Location
-**Date:** January 12-13, 2026 (Monday & Tuesday) 
+**Date:** January 12-13, 2026 (Monday & Tuesday) <br>
 **Location:** Amazon Seattle Headquarter (Exact venue TBD)
 
 ## Agenda
