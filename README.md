@@ -19,7 +19,16 @@ This **in-person only** workshop is free to atttend, there will be no virtual at
 **Location:** Amazon Seattle Headquarter (Exact venue TBD)
 
 ## Agenda
-### Day 1
+### Keynote
+
+### Presentation
+
+### Focused Discussions
+#### Best practices for validation against ISO14040/14044
+
+#### Human-annotated dataset for validation against common modeling assumptions used in most LCA studies
+
+### Day 1 Schedule
 
 | Time | Session |
 |------|---------|
@@ -33,7 +42,7 @@ This **in-person only** workshop is free to atttend, there will be no virtual at
 | 16:00-16:15 | *Coffee Break* |
 | 16:15-17:00 | Focused Group Discussion #1 Results Sharing and Improvement |
 
-### Day 2
+### Day 2 Schedule
 
 | Time | Session |
 |------|---------|
