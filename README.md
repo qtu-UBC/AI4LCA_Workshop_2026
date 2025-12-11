@@ -12,19 +12,25 @@ This workshop’s conceptual focus examines how verifiability serves as a corner
 
 This **in-person only** workshop is free to atttend, there will be no virtual attendance option. Attendees need to cover their own travel expense.
 
+**Registration link** coming soon...
+
 ## Date and Location
 **Date:** February 2-3, 2026 (Monday & Tuesday) <br>
 **Location:** Amazon Seattle Headquarter (Exact venue TBD)
 
 ## Agenda
 ### Keynote
+*Details coming soon*
 
-### Presentation
+### Presentations
+*Details coming soon*
 
 ### Focused Discussions
-#### Best practices for validation against ISO14040/14044
+#### [Discussion #1] Best practices for validation against ISO 14040/14044
+*Details coming soon*
 
-#### Human-annotated dataset for validation against common modeling assumptions used in most LCA studies
+#### [Discussion #2] Define validation dataset for common LCA modeling assumptions
+*Details coming soon*
 
 ### Day 1 Schedule
 
@@ -32,7 +38,7 @@ This **in-person only** workshop is free to atttend, there will be no virtual at
 |------|---------|
 | 08:30-09:00 | Breakfast & Networking |
 | 09:00-09:15 | Welcome and Opening Remarks |
-| 09:15-09:45 | Keynote - State-of-the-art and future perspective |
+| 09:15-09:45 | Keynote |
 | 09:45-10:00 | *Coffee Break* |
 | 11:00-11:45 | Panel Discussion #1 |
 | 11:45-13:00 | *Lunch* |
