@@ -7,15 +7,13 @@ We welcome participants from academia, LCA/sustainability consulting firms, AI s
 
 This workshop’s conceptual focus examines how verifiability serves as a cornerstone for credible LCA studies and how aligning AI-driven analyses with established standards (such as ISO 14040/44) can build stakeholder trust. Attendees will conduct focused discussions on the best practices in validation and transparency, as well as the definition of actionability in the context of LCA/carbon accounting.
 
-Key outcome of the workshop include (1) establishing a validation workflow and a standards alignment guideline for AI-augmented LCA, (2) developing a “golden dataset” (a curated set of LCA modeling questions with expert-annotated answers) for LCA validation, and (3) provide a recommendation on the definition of “actionability” in the context of LCA/carbon accounting. 
-
 
 ## Registration
 
 This **in-person only** workshop is free to atttend, there will be no virtual attendance option. Attendees need to cover their own travel expense.
 
 ## Date and Location
-**Date:** January 12-13, 2026 (Monday & Tuesday) <br>
+**Date:** February 2-3, 2026 (Monday & Tuesday) <br>
 **Location:** Amazon Seattle Headquarter (Exact venue TBD)
 
 ## Agenda
