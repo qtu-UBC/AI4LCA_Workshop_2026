@@ -10,7 +10,7 @@ This workshop’s conceptual focus examines how verifiability serves as a corner
 
 ## Registration
 
-This **in-person only** workshop is free to atttend, there will be no virtual attendance option. Attendees need to cover their own travel expense.
+This **in-person only** workshop is free to attend, there will be no virtual attendance option. Attendees need to cover their own travel expense.
 
 **Registration link** coming soon...
 
