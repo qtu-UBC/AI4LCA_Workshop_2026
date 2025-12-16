@@ -17,6 +17,7 @@ This **in-person only** workshop is free to attend, there will be no virtual att
 ## Date and Location
 **Date:** February 2-3, 2026 (Monday & Tuesday) <br>
 **Location:** Amazon Seattle Headquarter (Exact venue TBD)
+**Max capacity:** 80 attendees
 
 ## Agenda
 ### Keynote
