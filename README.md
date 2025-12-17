@@ -7,6 +7,8 @@ We welcome participants from academia, LCA/sustainability consulting firms, AI s
 
 This workshop’s conceptual focus examines how verifiability serves as a cornerstone for credible LCA studies and how aligning AI-driven analyses with established standards (such as ISO 14040/44) can build stakeholder trust. Attendees will conduct focused discussions on the best practices in validation and transparency, as well as the definition of actionability in the context of LCA/carbon accounting.
 
+Key outcome of the workshop includes (1) developing a template that captures core reasoning steps in LCA model construction and review (e.g., boundary setting, dataset selection, cutoff rules), (2) developing a small “golden dataset” (i.e., a curated set of LCA modeling questions with expert-annotated answers) for LCA validation
+
 
 ## Registration
 
@@ -21,7 +23,7 @@ This **in-person only** workshop is free to attend, there will be no virtual att
 
 ## Agenda
 ### Keynote
-*Details coming soon*
+Professor Ming Xu (Tsinghua University): *AI fro LCA: From data to implemenation*
 
 ### Presentations
 *Details coming soon*
