@@ -54,7 +54,7 @@ This **in-person only** workshop is free to attend, there will be no virtual att
 | 08:30-09:00 | Breakfast & Networking |
 | 09:00-09:45 | Three 15-minute presentations by panelists |
 | 09:45-10:00 | *Coffee Break* |
-| 10:00-11:45 | Panel Discussion #2 (Moderator: Dr. Qingshi Tu, University of British Columbia | Amazon) |
+| 10:00-11:45 | Panel Discussion #2 (Moderator: Dr. Qingshi Tu, University of British Columbia & Amazon) |
 | 11:45-13:00 | *Lunch* |
 | 13:00-16:00 | Focused Group Discussion #2 Solution Development |
 | 16:00-16:15 | *Coffee Break* |
