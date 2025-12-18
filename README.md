@@ -23,7 +23,7 @@ This **in-person only** workshop is free to attend, there will be no virtual att
 
 ## Agenda
 ### Keynote
-Professor Ming Xu (Tsinghua University): *AI fro LCA: From data to implemenation*
+Professor Ming Xu (Tsinghua University): *AI for LCA: From data to implemenation*
 
 ### Presentations
 *Details coming soon*
