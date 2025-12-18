@@ -14,7 +14,7 @@ Key outcome of the workshop includes (1) developing a template that captures cor
 
 This **in-person only** workshop is free to attend, there will be no virtual attendance option. Attendees need to cover their own travel expense.
 
-[**Registration link**](https://forms.gle/sQamw7Us8hEYRyKz7)
+[**Registration link**](https://forms.gle/sQamw7Us8hEYRyKz7) Deadline: January 18, 2026
 
 ## Date and Location
 **Date:** February 2-3, 2026 (Monday & Tuesday) <br>
