@@ -33,7 +33,10 @@ Professor Ming Xu (Tsinghua University): *AI for LCA: From data to implemenation
 *Details coming soon*
 
 #### [Discussion #2] Define validation dataset for common LCA modeling assumptions
-*Details coming soon*
+- Format of groundtruth data: We will focus on "Question-Answer" (QA) pairs
+- Define tenets to determine when a particular QA pair is acceptable as groundtruth data. This is crucial for maintaining the quality of the groundtruth data
+- Explore key categories of LCA modeling practices for which we need groundtruth data
+- Develop evaluation matrix for evaluating the quality of the generated QA pairs
 
 ### Day 1 Schedule
 
@@ -43,7 +46,7 @@ Professor Ming Xu (Tsinghua University): *AI for LCA: From data to implemenation
 | 09:00-09:15 | Welcome and Opening Remarks |
 | 09:15-09:45 | Keynote |
 | 09:45-10:00 | *Coffee Break* |
-| 11:00-11:45 | Panel Discussion #1 (Moderator: Dr. Sangwon Suh, Watershed)|
+| 11:00-11:45 | Panel Discussion #1 (Moderator: Dr. Sangwon Suh, Tsinghua University)|
 | 11:45-13:00 | *Lunch* |
 | 13:00-16:00 | Focused Group Discussion #1: Solution Development |
 | 16:00-16:15 | *Coffee Break* |
