@@ -19,14 +19,16 @@ This **in-person only** workshop is free to attend, there will be no virtual att
 ## Date and Location
 **Date:** February 2-3, 2026 (Monday & Tuesday) <br>
 **Location:** Amazon Seattle Headquarter (Exact venue TBD) <br>
-**Max capacity:** 80 attendees
+**Max capacity:** 80 attendees <br>
+[**Chatham House Rule is enforced in this workshop**](https://www.chathamhouse.org/about-us/chatham-house-rule)
 
 ## Agenda
 ### Keynote
 Professor Ming Xu (Tsinghua University): *AI for LCA: From data to implemenation*
 
 ### Presentations
-*Details coming soon*
+- SpiderGen: Towards Procedure Generation fro Carbon Life Cycle Assessments with Generative AI (Anu Sitaraman, Carnegie Mellon University)
+- Trace2Cradle: Building Infrastructure for Reliable Carbon Footprinting (Jinliang Xie, Tsinghua University)
 
 ### Focused Discussions
 #### [Discussion #1] Best practices for validation against ISO 14040/14044
