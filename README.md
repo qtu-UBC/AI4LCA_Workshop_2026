@@ -18,7 +18,9 @@ This **in-person only** workshop is free to attend, there will be no virtual att
 
 ## Date and Location
 **Date:** February 2-3, 2026 (Monday & Tuesday) <br>
-**Location:** Amazon Seattle Headquarter (Exact venue TBD) <br>
+**Location:** 05.301 in Amazon DAY 1 building (Room 301 on 5th floor at 2121 7th Ave, Seattle, WA 98121) <br>
+- Please note that All external guests (i.e., non-Amazon employees) will need to check in at the reception desk and **provide physical government-issued photo ID or Passport**.
+- Point of contact onsite: Nicole Nakashima (Exectuive Assistant I)
 **Max capacity:** 80 attendees <br>
 [**Chatham House Rule is enforced in this workshop**](https://www.chathamhouse.org/about-us/chatham-house-rule)
 
