@@ -25,7 +25,7 @@ This **in-person only** workshop is free to attend, there will be no virtual att
 
 ## Agenda
 ### Keynote
-Professor Ming Xu (Tsinghua University): *AI for LCA: From data to implemenation*
+Dr. Sangwon Suh (Tsinghua University): *From theoretical scale to precision engineering in sustainability data*
 
 ### Presentations
 - SpiderGen: Towards Procedure Generation fro Carbon Life Cycle Assessments with Generative AI (Anu Sitaraman, Carnegie Mellon University)
