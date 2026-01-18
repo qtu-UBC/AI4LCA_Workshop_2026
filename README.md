@@ -32,7 +32,7 @@ Dr. Sangwon Suh (Tsinghua University): *From theoretical scale to precision engi
 - Trace2Cradle: Building Infrastructure for Reliable Carbon Footprinting (Jinliang Xie, Tsinghua University)
 
 ### Focused Discussions
-#### [Discussion #1] Best practices for validation against ISO 14040/14044
+#### [Discussion #1] Evaluating AI-Assisted LCA & PCF: procedural aspects and standard conformity
 *Details coming soon*
 
 #### [Discussion #2] Define validation dataset for common LCA modeling assumptions
