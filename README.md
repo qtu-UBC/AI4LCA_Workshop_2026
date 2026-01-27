@@ -33,7 +33,11 @@ Dr. Sangwon Suh (Tsinghua University): *From theoretical scale to precision engi
 
 ### Focused Discussions
 #### [Discussion #1] Evaluating AI-Assisted LCA & PCF: procedural aspects and standard conformity
-*Details coming soon*
+- Refine key decision points distilled from ISO 14044 to determine which are most relevant for AI agents versus human practitioners.
+- Develop consensus-based quality criteria (rubrics) to assess the performance of AI on these decision points, focusing on reliability, transparency, and relevance.
+- Establish standardized evaluation template and checklist to facilitate AI-led and/or human-led verification of procedural and methodological quality.
+- Define documentation requirements to ensure traceability of AI decisions, prompts, and data sources.
+- Define standard protocol for Goal and Scope statement for contextual embedding of decisions.
 
 #### [Discussion #2] Define validation dataset for common LCA modeling assumptions
 - Format of groundtruth data: We will focus on "Question-Answer" (QA) pairs
