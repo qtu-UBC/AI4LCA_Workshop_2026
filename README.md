@@ -33,7 +33,7 @@ Dr. Sangwon Suh (Tsinghua University): *From theoretical scale to precision engi
 
 ### Panelists
 - Day 1: Andrew Dumit (Watershed), Zaid Thanawala (Amazon), Susan Sanchez (UL), Julie Rapoport (Google)
-- Day 2: Erika Peters (Muir.ai), Jeremy Gregory (MIT), Bogachan Gungor (Amazon), Valentina Prado (Sphera)
+- Day 2: Erika Odmark (Muir.ai), Jeremy Gregory (MIT), Bogachan Gungor (Amazon), Valentina Prado (Sphera)
 
 ### Focused Discussions
 #### [Discussion #1] Evaluating AI-Assisted LCA & PCF: procedural aspects and standard conformity
