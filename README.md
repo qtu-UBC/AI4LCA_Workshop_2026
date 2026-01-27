@@ -27,7 +27,7 @@ This **in-person only** workshop is free to attend, there will be no virtual att
 ### Keynote
 Dr. Sangwon Suh (Tsinghua University): *From theoretical scale to precision engineering in sustainability data*
 
-### Presentations
+### Research Presentations
 - SpiderGen: Towards Procedure Generation fro Carbon Life Cycle Assessments with Generative AI (Anu Sitaraman, Carnegie Mellon University)
 - Trace2Cradle: Building Infrastructure for Reliable Carbon Footprinting (Jinliang Xie, Tsinghua University)
 
@@ -45,10 +45,10 @@ Dr. Sangwon Suh (Tsinghua University): *From theoretical scale to precision engi
 
 | Time | Session |
 |------|---------|
-| 08:30-09:00 | Breakfast & Networking |
-| 09:00-09:15 | Welcome and Opening Remarks |
-| 09:15-09:45 | Keynote |
-| 09:45-10:00 | *Coffee Break* |
+| 08:30-09:30 | Breakfast & Networking |
+| 09:30-10:00 | Welcome and Opening Remarks |
+| 10:00-10:30 | Keynote |
+| 10:30-11:00 | *Coffee Break* |
 | 11:00-11:45 | Panel Discussion #1 (Moderator: Dr. Sangwon Suh, Tsinghua University)|
 | 11:45-13:00 | *Lunch* |
 | 13:00-16:00 | Focused Group Discussion #1: Solution Development |
@@ -59,10 +59,10 @@ Dr. Sangwon Suh (Tsinghua University): *From theoretical scale to precision engi
 
 | Time | Session |
 |------|---------|
-| 08:30-09:00 | Breakfast & Networking |
-| 09:00-09:45 | Three 15-minute presentations |
-| 09:45-10:00 | *Coffee Break* |
-| 10:00-11:45 | Panel Discussion #2 (Moderator: Dr. Qingshi Tu, University of British Columbia & Amazon) |
+| 08:30-09:30 | Breakfast & Networking |
+| 09:30-10:15 | Research presentations |
+| 10:15-11:00 | *Coffee Break* |
+| 11:00-11:45 | Panel Discussion #2 (Moderator: Dr. Qingshi Tu, University of British Columbia & Amazon) |
 | 11:45-13:00 | *Lunch* |
 | 13:00-16:00 | Focused Group Discussion #2 Solution Development |
 | 16:00-16:15 | *Coffee Break* |
