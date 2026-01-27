@@ -24,12 +24,16 @@ This **in-person only** workshop is free to attend, there will be no virtual att
 - [**Chatham House Rule is enforced in this workshop**](https://www.chathamhouse.org/about-us/chatham-house-rule)
 
 ## Agenda
-### Keynote
+### Keynote Speaker
 Dr. Sangwon Suh (Tsinghua University): *From theoretical scale to precision engineering in sustainability data*
 
 ### Research Presentations
 - SpiderGen: Towards Procedure Generation fro Carbon Life Cycle Assessments with Generative AI (Anu Sitaraman, Carnegie Mellon University)
 - Trace2Cradle: Building Infrastructure for Reliable Carbon Footprinting (Jinliang Xie, Tsinghua University)
+
+### Panelists
+- Day 1: Andrew Dumit (Watershed), Zaid Thanawala (Amazon), Susan Sanchez (UL), Julie Rapoport (Google)
+- Day 2: Erika Peters (Muir.ai), Jeremy Gregory (MIT), Bogachan Gungor (Amazon), Valentina Prado (Sphera)
 
 ### Focused Discussions
 #### [Discussion #1] Evaluating AI-Assisted LCA & PCF: procedural aspects and standard conformity
