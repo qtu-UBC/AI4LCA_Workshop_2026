@@ -63,7 +63,7 @@ Dr. Sangwon Suh (Tsinghua University): *From theoretical scale to precision engi
 | 13:15-16:15 | Focused Group Discussion #1: Solution Development |
 | 16:15-16:45 | *Coffee Break* |
 | 16:45-17:30 | Focused Group Discussion #1 Results Sharing and Improvement |
-| 18:00-20:30 | Private welcome reception at Climate Pledge Arena ([**RSPV**](https://forms.gle/oLTehkG2ErbmN6Jy8) by Friday, January 30, 2026) |
+| 18:00-20:30 | Private welcome reception at Climate Pledge Arena ([**RSVP**](https://forms.gle/oLTehkG2ErbmN6Jy8) preferred by Friday, January 30, 2026) |
 
 ### Day 2 Schedule
 
