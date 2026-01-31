@@ -30,7 +30,7 @@ Dr. Sangwon Suh (Tsinghua University): *From theoretical scale to precision engi
 ### Research Presentations
 - SpiderGen: Towards Procedure Generation fro Carbon Life Cycle Assessments with Generative AI (Anu Sitaraman, Carnegie Mellon University)
 - Trace2Cradle: Building Infrastructure for Reliable Carbon Footprinting (Jinliang Xie, Tsinghua University)
-- Designing Sustainable Electronics using AI-Driven LCA (Dr. Vikram Iyer, University of Washington)
+- Designing Sustainable Electronics using AI-Driven LCA (Dr. Vikram Iyer, University of Washington & Amazon)
 
 ### Panelists
 - Day 1: Andrew Dumit (Watershed), Zaid Thanawala (Amazon), Susan Sanchez (UL), Julie Rapoport (Google)
