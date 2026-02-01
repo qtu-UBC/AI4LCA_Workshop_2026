@@ -55,9 +55,9 @@ Dr. Sangwon Suh (Tsinghua University): *From theoretical scale to precision engi
 | Time | Session |
 |------|---------|
 | 08:30-09:30 | Breakfast & Networking |
-| 09:30-10:00 | Welcome and Opening Remarks |
-| 10:00-10:30 | Keynote |
-| 10:30-11:00 | *Coffee Break* |
+| 09:30-09:50 | Welcome and Opening Remarks |
+| 09:50-10:20 | Keynote |
+| 10:20-11:00 | *Coffee Break* |
 | 11:00-11:45 | Panel Discussion #1 (Moderator: Dr. Sangwon Suh, Tsinghua University)|
 | 11:45-13:15 | *Lunch* |
 | 13:15-16:15 | Focused Group Discussion #1: Solution Development |
