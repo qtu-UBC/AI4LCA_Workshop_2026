@@ -28,7 +28,7 @@ This **in-person only** workshop is free to attend, there will be no virtual att
 Dr. Sangwon Suh (Tsinghua University): *From theoretical scale to precision engineering in sustainability data*
 
 ### Research Presentations
-- SpiderGen: Towards Procedure Generation fro Carbon Life Cycle Assessments with Generative AI (Anu Sitaraman, Carnegie Mellon University)
+- SpiderGen: Towards Procedure Generation from Carbon Life Cycle Assessments with Generative AI (Anu Sitaraman, Carnegie Mellon University)
 - Trace2Cradle: Building Infrastructure for Reliable Carbon Footprinting (Jinliang Xie, Tsinghua University)
 - Designing Sustainable Electronics using AI-Driven LCA (Dr. Vikram Iyer, University of Washington & Amazon)
 
