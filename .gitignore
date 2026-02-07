@@ -1,0 +1,42 @@
+# --- macOS ---
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# --- Windows ---
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# --- Linux ---
+*~
+
+# --- Logs ---
+*.log
+
+# --- Temp / cache ---
+*.tmp
+*.temp
+*.cache
+*.bak
+*.swp
+*.swo
+*.swn
+*.orig
+
+# --- Editor / IDE ---
+.vscode/
+.idea/
+*.iml
+
+# --- Node / Python common (optional but common) ---
+node_modules/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
