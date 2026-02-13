@@ -1,5 +1,9 @@
 # AI4LCA Workshop 2026: Deriving Actions for Decarbonization from Verifiable LCAs
-**Disclaimer: The follwoing summary is generated using AI tools (e.g, ChatGPT, Google Gemini) and revised by workshop organizers**
+<p align="center">
+  <img src="https://github.com/qtu-UBC/AI4LCA_Workshop_2026/blob/main/workshop%20materials/Climate%20Pledge%20Arena.jpg" alt="Reception at Climate Pledge Arena" width="1000">
+</p>
+
+**Disclaimer: The following summary is generated using AI tools (e.g, ChatGPT, Google Gemini) and revised by workshop organizers**
 
 ## TL’DR
 
@@ -12,10 +16,10 @@ The consensus across the workshop and practitioner survey is that ensuring credi
 - **Human Responsibility**: Responsibility and liability for LCA declarations ultimately remain with human experts, not the AI tool.
 
 ## Day 1 Highlights
-**Dr. Sangwon Suh’s Keynote Speech** <br>
+### Dr. Sangwon Suh’s Keynote Speech
 Dr. Suh positioned AI and LCA at an inflection point where the central challenge has shifted from whether to use AI to how to evaluate its outputs responsibly, using the Tiangong Initiative's large-scale automated LCI dataset generation as evidence that AI fundamentally transforms LCA infrastructure from static to dynamic while raising critical quality and trust questions. He argued the field is transitioning from speed-focused automation to precision engineering, acknowledging that despite technical improvements through prompt engineering, RAG, fine-tuning, and multi-agent workflows, the community faces a "ground truth paradox" where even human experts show ±20% or greater variability due to methodological choices rather than arithmetic errors—meaning AI cannot resolve disagreements the field hasn't settled over decades. Suh proposed reframing evaluation objectives away from forcing convergence to single answers toward defining boundaries of plausible methodological choices across three domains: procedural quality (ISO compliance), empirical validity (physical plausibility), and technical correctness (proper tool usage), operationalized through synthetic Q&A datasets from ISO standards, property-based validation checks, machine-readable goal and scope definitions, structured audit trails, and strategically focused human oversight on high-impact decisions. He concluded that the historical ISO emphasis on consistency over accuracy can now be revisited given modern computational capacity that enables embedded uncertainty analysis and scenario distributions, but cautioned that as LCA scales through AI, evaluation methods must evolve beyond pen-and-paper reviews to leverage computational resources, ultimately aiming not just for faster LCAs but for credible, defensible measurements that support real decarbonization decisions.
 
-**Key Takeaways from Panel Discussion**
+### Key Takeaways from Panel Discussion
 - ISO compliance alone does not guarantee quality; validation must go beyond procedural conformity.
 - Task-specific AI applications are currently more mature and defensible than fully autonomous end-to-end systems.
 - Responsibility and liability remain human, even in AI-assisted systems.
@@ -24,7 +28,7 @@ Dr. Suh positioned AI and LCA at an inflection point where the central challenge
 - Uncertainty and sensitivity analysis are promising areas for AI-enabled enhancement of LCA rigor.
 - Standards may need to evolve toward outcome-based requirements rather than prescriptive methods.
 
-**Key Takeaways from Open Discussion**
+### Key Takeaways from Open Discussion
   - **Focus on Guardrails:** The discussion has decisively shifted from whether to use AI to establishing clear guardrails and defining the necessary level of documentation and review based on the AI's scope (narrow, task-specific function vs. full end-to-end model generation).
   - **Uncertainty and Sensitivity as Core Requirements:** All AI-assisted LCAs should be required to include uncertainty and sensitivity analysis, especially in areas with ambiguous modeling choices (e.g., allocation method). AI should be used to run multiple plausible options, quantify outcome sensitivity, and flag high-impact decisions for human review.
   - **Validation Beyond Compliance:** ISO compliance is necessary but insufficient. Validation frameworks must go beyond formal procedural alignment to also address **numerical correctness**, interpretability, traceability, and model robustness.
@@ -35,8 +39,8 @@ Dr. Suh positioned AI and LCA at an inflection point where the central challenge
   - **Evolving Standards:** Existing ISO standards may not be fully AI-ready. Future revisions should focus on **outcome-based criteria** (demonstrating traceability, reproducibility, and uncertainty characterization) rather than prescriptive methods.
 
 ## Day 2 Highlights
-**Research presentations** <br>
-The three presentations showcase a significant potential for scaling LCA generation and validation through the use of AI and agent-based systems. **Below are the insights summarized by the notetaker (i.e, not the viewpoints from the presenters)**:
+### Research Presentations
+The three presentations showcase a significant potential for scaling LCA generation and validation through the use of AI and agent-based systems. **Below are the insights summarized by the notetaker (i.e, not the viewpoints from the presenters)**: <br>
 *Potential for Scaling LCA Generation*
 - **Process Flow Graph Generation ([SpiderGen](https://arxiv.org/abs/2511.10684))**: The project is directly focused on generating Process Flow Graphs (PFGs) "at scale" by leveraging the world knowledge and reasoning models of Large Language Models (LLMs), even when starting with sparse and noisy public data.
 - **Scalable PCF Modeling (Trace2Cradle)**: This approach aims to achieve "scalable PCF modeling without sacrificing granularity" by digitizing expert heuristics into a multi-agent framework. 
@@ -46,7 +50,7 @@ The three presentations showcase a significant potential for scaling LCA generat
 - **Generating a consistent “reference” PFG**: Both SpiderGen and Trace2Cradle have the potential to generate a reference PFG for a given Product Category Rule (PCR). Such reference PFGs would explicitly encode all required processes and linkages—minimizing subjective omissions—while still allowing controlled customization where the PCR permits flexibility. This has an important implication for strengthening PCR specification, for example by supporting the development of Complementary PCRs (c-PCRs): specialized guidelines that supplement broader “main” or “core” PCRs. For scaling LCA validation, these reference PFGs provide a machine-checkable benchmark that enables automated completeness and conformance checks across, rather than relying on manual review.
 - **Performing embedded, evidence-linked validation checks**: The approach developed for sustainable electronics LCAs has the potential to support validation at scale by building review checkpoints directly into the workflow—checking structural completeness against the underlying abstraction, linking each modeled choice to supporting evidence (e.g., observed through direct retrieval from public records vs inferred from statistical estimation), propagating uncertainty via neighbor-based estimates, and using feature-driven emission-factor matching to reduce subjective proxy selection—thereby enabling automated flagging and tiered audits instead of manual, case-by-case review.
 
-**Key Takeaways from Panel Discussion** <br>
+### Key Takeaways from Panel Discussion
 *Framing the Baseline & Validation Categories*
 
 | Question                                                                                                                                          | Key Insight / Answer                                                                                                                                                                                                                                       |
@@ -65,9 +69,20 @@ The three presentations showcase a significant potential for scaling LCA generat
 | **Under what circumstances will you trust the validation result from an AI workflow?** | Trust is based on an **auditable trace of reasoning** and complete **transparency** in the approach and data. A system needs a rigorous methodology, with all assumptions and emission factors associated with a ground truth database.     |
 | **Who should own, maintain, and govern the ground truth database?**                    | The consensus suggests that it should not be in the private domain. A **non-profit organization** structure, learning from other domains like OpenStreetMap, was suggested.                                                                 |
 
-**Groundtruth data creation**
+### Groundtruth Data Creation
 
 
+## Call for Actions
+- **Scale up groundtruth data generation**: We must move beyond simply acknowledging practitioner variability and begin to systematically document the expert reasoning that underpins it. Here, AI can play a practical scaling role—not by replacing expertise, but by accelerating it: assisting with drafting structured “decision + rationale” records from practitioner inputs, normalizing terminology, extracting evidence links, and proposing candidate QA pairs or rubric labels that experts can quickly verify and refine. We urge the LCA community—researchers, practitioners, and technology developers—to collaborate on building this essential dataset, using AI-enabled workflows to reduce the time burden per contribution while keeping humans firmly in charge of what counts as defensible practice. It is the critical step needed to prepare for the future and ensure that the next generation of LCA modeling is not only powerful but also trustworthy. <br>
+<p align="center">
+  <img src="workshop materials/Illustration of a synthetic QA groundtruth data generation workflow.png" alt="Illustration of a synthetic QA groundtruth data generation workflow" width="800">
+  <br>
+  <em>Illustration of a synthetic QA groundtruth data generation workflow</em>
+</p>
+
+- **Build platform for collaboration**: Our experiment approach (Google Sheet + App Script -> Google Form) may not be scalable to meeting the workload from the large crowd-sourcing effort by the entire LCA community. Therefore, we need to build a platform that is accessible to all to contribute groundtruth data, with transparency and proper data governance structure.
+- **Reduce ambiguity in inventory modeling**: Explicitly defined specifications for inventory data and models (example here) can enable AI to efficiently check structural completeness and rule conformance (e.g., required fields, unit/flow consistency, mandatory processes, and allowable substitutions) before human review. Similarly, create a “reference model” that explicitly encodes all required processes and linkages for a given product category, has an important implication for scaling LCA validation. These reference models provide a machine-checkable benchmark that enables automated completeness and conformance checks.
+- **Standardize agentic workflow development for LCA applications**: Agentic workflows are expected to be the core of the next generation LCA applications, therefore, it is important to standardize how we design, evaluate and update them. 
 
 
 ### For more details, please read the full summary [here](https://docs.google.com/document/d/1empRD6m71BJ8kgIowzI8YblMx21TuBwQeNZBzh3zfBM/edit?tab=t.0) 
