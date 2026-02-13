@@ -5,7 +5,7 @@
 
 **Disclaimer: The following summary is generated using AI tools (e.g, ChatGPT, Google Gemini) and revised by workshop organizers**
 
-## TL’DR
+## *TL’DR*
 
 The field of AI-assisted Life Cycle Assessment (LCA) has shifted the core challenge from *automation* to **verification**.
 
@@ -17,7 +17,8 @@ The consensus across the workshop and practitioner survey is that ensuring credi
 
 ## Day 1 Highlights
 ### Dr. Sangwon Suh’s Keynote Speech
-Dr. Suh positioned AI and LCA at an inflection point where the central challenge has shifted from whether to use AI to how to evaluate its outputs responsibly, using the Tiangong Initiative's large-scale automated LCI dataset generation as evidence that AI fundamentally transforms LCA infrastructure from static to dynamic while raising critical quality and trust questions. He argued the field is transitioning from speed-focused automation to precision engineering, acknowledging that despite technical improvements through prompt engineering, RAG, fine-tuning, and multi-agent workflows, the community faces a "ground truth paradox" where even human experts show ±20% or greater variability due to methodological choices rather than arithmetic errors—meaning AI cannot resolve disagreements the field hasn't settled over decades. Suh proposed reframing evaluation objectives away from forcing convergence to single answers toward defining boundaries of plausible methodological choices across three domains: procedural quality (ISO compliance), empirical validity (physical plausibility), and technical correctness (proper tool usage), operationalized through synthetic Q&A datasets from ISO standards, property-based validation checks, machine-readable goal and scope definitions, structured audit trails, and strategically focused human oversight on high-impact decisions. He concluded that the historical ISO emphasis on consistency over accuracy can now be revisited given modern computational capacity that enables embedded uncertainty analysis and scenario distributions, but cautioned that as LCA scales through AI, evaluation methods must evolve beyond pen-and-paper reviews to leverage computational resources, ultimately aiming not just for faster LCAs but for credible, defensible measurements that support real decarbonization decisions.
+Dr. Suh positioned AI and LCA at an inflection point where the central challenge has shifted from whether to use AI to how to evaluate its outputs responsibly, using the Tiangong Initiative's large-scale automated LCI dataset generation as evidence that AI fundamentally transforms LCA infrastructure from static to dynamic while raising critical quality and trust questions. He argued the field is transitioning from speed-focused automation to precision engineering, acknowledging that despite technical improvements through prompt engineering, RAG, fine-tuning, and multi-agent workflows, the community faces a "ground truth paradox" where even human experts show ±20% or greater variability due to methodological choices rather than arithmetic errors—meaning AI cannot resolve disagreements the field hasn't settled over decades. Suh proposed reframing evaluation objectives away from forcing convergence to single answers toward defining boundaries of plausible methodological choices across three domains: procedural quality (ISO compliance), empirical validity (physical plausibility), and technical correctness (proper tool usage), operationalized through synthetic Q&A datasets from ISO standards, property-based validation checks, machine-readable goal and scope definitions, structured audit trails, and strategically focused human oversight on high-impact decisions. He concluded that the historical ISO emphasis on consistency over accuracy can now be revisited given modern computational capacity that enables embedded uncertainty analysis and scenario distributions, but cautioned that as LCA scales through AI, evaluation methods must evolve beyond pen-and-paper reviews to leverage computational resources, ultimately aiming not just for faster LCAs but for credible, defensible measurements that support real decarbonization decisions. <br>
+[**Link to Dr. Suh's slides**](https://github.com/qtu-UBC/AI4LCA_Workshop_2026/blob/main/workshop%20materials/AI4LCA_Suh_keynote_public.pdf)
 
 ### Key Takeaways from Panel Discussion
 - ISO compliance alone does not guarantee quality; validation must go beyond procedural conformity.
@@ -70,7 +71,33 @@ The three presentations showcase a significant potential for scaling LCA generat
 | **Who should own, maintain, and govern the ground truth database?**                    | The consensus suggests that it should not be in the private domain. A **non-profit organization** structure, learning from other domains like OpenStreetMap, was suggested.                                                                 |
 
 ### Groundtruth Data Creation
+The session was structured around a sequence of concrete steps designed to build consensus on the criteria and process for generating a high-quality groundtruth Question-Answer (QA) dataset for AI-assisted LCA validation.
 
+**Defining Core Principles ("Tenets"):**
+- Attendees started with a discussion on the **"tenets"** (core principles) for accepting groundtruth QA data, which guided the initial quality check.
+- The focus was on ensuring QA pairs were **reasonably nuanced**, **sufficiently specific**, had a **single interpretation**, and centered on a **modeling choice** (rather than a trivial or common fact).
+
+**Developing an Evaluation Rubric:**
+The group then moved to defining an **evaluation rubric** for data quality. This resulted in distinct sets of metrics for **Question Quality** and **Answer Quality**.
+
+**Applying the Rubric to Generate New Data:**
+After establishing the quality criteria, attendees organized into breakout groups to **create new groundtruth QA data** in specific areas of LCA methodology, such as:
+- Input contribution analysis.
+- Model results validation.
+- Temporal and spatial resolution.
+- Handling multifunctional processes and allocation methods.
+
+**Collective Data Input and Evaluation:**
+- Attendees **filled out their newly created QA pairs in a shared Google Sheet**.
+- The data from the sheet was then used to **populate a Google Form via Apps Script**, allowing attendees to apply the consensus-based evaluation rubric and evaluate each other’s generated groundtruth QA pairs.
+
+### We wrapped up the workshop with a brainstorming session on “What’s next?” ([survey result](https://github.com/qtu-UBC/AI4LCA_Workshop_2026/blob/main/workshop%20materials/scaling_groundtruth_data_creation_with_ai_-_interactive_brainstorm.pdf)) 
+- **How AI can help scale groundtruth data creation**: Use AI to extract/standardize evidence, generate diverse scenarios, and codify decision rules while humans curate and validate the critical choices.
+- **Virtual methods/tools to keep it going remotely**: Participants want a lightweight collaboration stack (Zoom/Notion) plus shared repositories (GitHub) and common libraries/scenario sets to coordinate work.
+- **Challenges (ranked)**: The biggest barriers are data quality/accuracy, time/budget limits, and limited access to diverse data sources (with technical complexity and engagement also noted).
+- **Best strategies to improve virtual collaboration (ranked)**: Priorities are clear guidelines/training, AI-assisted collaborative annotation platforms, and automated quality checks—supported by regular workshops and contributor recognition.
+- **One-word opportunity signal**: The dominant opportunity framing is “scale/speed/efficiency/consistency,” with some concern signals also present.
+- **Support/resources people need**: Respondents most want training, prompt/answer validation support, open/shared data infrastructure, community communication channels, and more structured co-working sessions. 
 
 ## Call for Actions
 - **Scale up groundtruth data generation**: We must move beyond simply acknowledging practitioner variability and begin to systematically document the expert reasoning that underpins it. Here, AI can play a practical scaling role—not by replacing expertise, but by accelerating it: assisting with drafting structured “decision + rationale” records from practitioner inputs, normalizing terminology, extracting evidence links, and proposing candidate QA pairs or rubric labels that experts can quickly verify and refine. We urge the LCA community—researchers, practitioners, and technology developers—to collaborate on building this essential dataset, using AI-enabled workflows to reduce the time burden per contribution while keeping humans firmly in charge of what counts as defensible practice. It is the critical step needed to prepare for the future and ensure that the next generation of LCA modeling is not only powerful but also trustworthy. <br>
@@ -88,7 +115,7 @@ The three presentations showcase a significant potential for scaling LCA generat
 ### For more details, please read the full summary [here](https://docs.google.com/document/d/1empRD6m71BJ8kgIowzI8YblMx21TuBwQeNZBzh3zfBM/edit?tab=t.0) 
 
 -----------
-## Overview
+## [Archived] Overview
 In an era where artificial intelligence (AI) is increasingly integrated into life cycle assessment (LCA), verifying the integrity and trustworthiness of LCA results has become paramount. This verifiability is the foundation for deriving actionable solutions from LCA to decarbonize business operations, product manufacturing, and supply chain networks through data-driven prioritization and targeted interventions.
 
 We welcome participants from academia, LCA/sustainability consulting firms, AI solution providers, industrial associations and many other groups of the broad LCA/sustainability modeling community, to address this critical challenge. Together, we will explore standardized AI solutions that will transform how we validate LCA and derive actionable insights- making it faster, more consistent, and significantly more scalable. 
