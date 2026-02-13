@@ -1,5 +1,78 @@
 # AI4LCA Workshop 2026: Deriving Actions for Decarbonization from Verifiable LCAs
+**Disclaimer: The follwoing summary is generated using AI tools (e.g, ChatGPT, Google Gemini) and revised by workshop organizers**
 
+## TL’DR
+
+The field of AI-assisted Life Cycle Assessment (LCA) has shifted the core challenge from *automation* to **verification**.
+
+The consensus across the workshop and practitioner survey is that ensuring credibility and quality in AI-assisted LCAs requires a focus on:
+- **Validation**: Outputs must be evaluated across three dimensions: Procedural Quality (ISO conformity), Empirical Validity (plausibility), and Technical Correctness (proper tool usage).
+- **Context and Judgment**: Practitioner decisions are highly nuanced and context-dependent, leading to significant variability in results that AI alone cannot resolve.
+- **Scalable Oversight**: To validate the expected high volume of AI-generated LCAs, the community must move beyond manual review by developing a groundtruth dataset of expert reasoning. This dataset will allow for automated validation, embedded uncertainty and sensitivity analysis, and the flagging of unconventional choices to strategically focus human oversight where it matters most.
+- **Human Responsibility**: Responsibility and liability for LCA declarations ultimately remain with human experts, not the AI tool.
+
+## Day 1 Highlights
+**Dr. Sangwon Suh’s Keynote Speech** <br>
+Dr. Suh positioned AI and LCA at an inflection point where the central challenge has shifted from whether to use AI to how to evaluate its outputs responsibly, using the Tiangong Initiative's large-scale automated LCI dataset generation as evidence that AI fundamentally transforms LCA infrastructure from static to dynamic while raising critical quality and trust questions. He argued the field is transitioning from speed-focused automation to precision engineering, acknowledging that despite technical improvements through prompt engineering, RAG, fine-tuning, and multi-agent workflows, the community faces a "ground truth paradox" where even human experts show ±20% or greater variability due to methodological choices rather than arithmetic errors—meaning AI cannot resolve disagreements the field hasn't settled over decades. Suh proposed reframing evaluation objectives away from forcing convergence to single answers toward defining boundaries of plausible methodological choices across three domains: procedural quality (ISO compliance), empirical validity (physical plausibility), and technical correctness (proper tool usage), operationalized through synthetic Q&A datasets from ISO standards, property-based validation checks, machine-readable goal and scope definitions, structured audit trails, and strategically focused human oversight on high-impact decisions. He concluded that the historical ISO emphasis on consistency over accuracy can now be revisited given modern computational capacity that enables embedded uncertainty analysis and scenario distributions, but cautioned that as LCA scales through AI, evaluation methods must evolve beyond pen-and-paper reviews to leverage computational resources, ultimately aiming not just for faster LCAs but for credible, defensible measurements that support real decarbonization decisions.
+
+**Key Takeaways from Panel Discussion**
+- ISO compliance alone does not guarantee quality; validation must go beyond procedural conformity.
+- Task-specific AI applications are currently more mature and defensible than fully autonomous end-to-end systems.
+- Responsibility and liability remain human, even in AI-assisted systems.
+- Automation must be evaluated holistically to avoid shifting bottlenecks to review stages.
+- Open, structured, and interoperable data infrastructure is foundational to trustworthy AI-LCA.
+- Uncertainty and sensitivity analysis are promising areas for AI-enabled enhancement of LCA rigor.
+- Standards may need to evolve toward outcome-based requirements rather than prescriptive methods.
+
+**Key Takeaways from Open Discussion**
+  - **Focus on Guardrails:** The discussion has decisively shifted from whether to use AI to establishing clear guardrails and defining the necessary level of documentation and review based on the AI's scope (narrow, task-specific function vs. full end-to-end model generation).
+  - **Uncertainty and Sensitivity as Core Requirements:** All AI-assisted LCAs should be required to include uncertainty and sensitivity analysis, especially in areas with ambiguous modeling choices (e.g., allocation method). AI should be used to run multiple plausible options, quantify outcome sensitivity, and flag high-impact decisions for human review.
+  - **Validation Beyond Compliance:** ISO compliance is necessary but insufficient. Validation frameworks must go beyond formal procedural alignment to also address **numerical correctness**, interpretability, traceability, and model robustness.
+  - **Minimum Documentation Standards:** Documentation must clearly support transparent reasoning trails, explicitly identify modeling assumptions, and indicate where the AI made interpretive decisions, while also managing the risk of the automation accelerating modeling but simultaneously overburdening the human review process.
+  - **Responsibility is Human:** Responsibility and legal liability for the final LCA declaration ultimately rest with human experts, not the AI tool. This reinforces the need for "human-in-the-loop" architectures.
+  - **Acceptable Risk:** The community must define an *acceptable level of modeling error* in exchange for the benefits of scalability, shifting the focus from demanding perfection to establishing explicit error thresholds and escalation rules for high-risk cases.
+  - **Data is a Constraint:** The performance of AI-assisted LCA is fundamentally constrained by the lack of **open, well-structured LCI datasets**. Community collaboration on data transparency is critical.
+  - **Evolving Standards:** Existing ISO standards may not be fully AI-ready. Future revisions should focus on **outcome-based criteria** (demonstrating traceability, reproducibility, and uncertainty characterization) rather than prescriptive methods.
+
+## Day 2 Highlights
+**Research presentations** <br>
+The three presentations showcase a significant potential for scaling LCA generation and validation through the use of AI and agent-based systems. **Below are the insights summarized by the notetaker (i.e, not the viewpoints from the presenters)**:
+*Potential for Scaling LCA Generation*
+- **Process Flow Graph Generation ([SpiderGen](https://arxiv.org/abs/2511.10684))**: The project is directly focused on generating Process Flow Graphs (PFGs) "at scale" by leveraging the world knowledge and reasoning models of Large Language Models (LLMs), even when starting with sparse and noisy public data.
+- **Scalable PCF Modeling (Trace2Cradle)**: This approach aims to achieve "scalable PCF modeling without sacrificing granularity" by digitizing expert heuristics into a multi-agent framework. 
+- **Agentic, Evidence-Grounded LCI Assembly (Sustainable Electronics)**: This work treats inventory building as an iterative, multi-agent workflow that uses a structured “data abstraction” to enforce completeness, and leverages multimodal public evidence (e.g., teardowns/specs/images) plus similarity-based estimators (kNN) to fill gaps and produce fast, budgeted results with quantified uncertainty.
+  
+*Potential for Scaling LCA Validation*
+- **Generating a consistent “reference” PFG**: Both SpiderGen and Trace2Cradle have the potential to generate a reference PFG for a given Product Category Rule (PCR). Such reference PFGs would explicitly encode all required processes and linkages—minimizing subjective omissions—while still allowing controlled customization where the PCR permits flexibility. This has an important implication for strengthening PCR specification, for example by supporting the development of Complementary PCRs (c-PCRs): specialized guidelines that supplement broader “main” or “core” PCRs. For scaling LCA validation, these reference PFGs provide a machine-checkable benchmark that enables automated completeness and conformance checks across, rather than relying on manual review.
+- **Performing embedded, evidence-linked validation checks**: The approach developed for sustainable electronics LCAs has the potential to support validation at scale by building review checkpoints directly into the workflow—checking structural completeness against the underlying abstraction, linking each modeled choice to supporting evidence (e.g., observed through direct retrieval from public records vs inferred from statistical estimation), propagating uncertainty via neighbor-based estimates, and using feature-driven emission-factor matching to reduce subjective proxy selection—thereby enabling automated flagging and tiered audits instead of manual, case-by-case review.
+
+**Key Takeaways from Panel Discussion** <br>
+*Framing the Baseline & Validation Categories*
+
+| Question                                                                                                                                          | Key Insight / Answer                                                                                                                                                                                                                                       |
+| :------------------------------------------------------------------------------------------------------------------------------------------------ | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **What are two key aspects of modeling assumptions to verify in an LCA report?**                                                                  | The **functional unit** (including technical performance and reference flows) and **recycled content** or **allocation decisions** (subdivision) are critical checks. Inventory data and ISO standards conformance are also key.                           |
+| **How do examples of verification fall into the three validation categories (Procedural Conformity, Empirical Validity, Technical Correctness)?** | The **Functional Unit (FU) check** was noted to potentially overlap all three categories. **Inventory data** is primarily Empirical but can overlap with Technical Correctness. **Bill of Materials (BoM) completeness** is a Procedural Conformity check. |
+| **What is the single largest source of ambiguity when validating empirically?**                                                                   | Ambiguity of **what the product is** (e.g., defining a heat pump or the level of input granularity of BoM), **data quality** (e.g., poor geographic representation of a unit process flow), and **uncertainty in key parameters** (hotspots).              |
+
+*Ground Truth Data & AI's Role*
+
+| Question                                                                               | Key Insight / Answer                                                                                                                                                                                                                        |
+| :------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **How do you define what should be considered 'ground truth' data?**                   | Ground truth must be **transparent** (trace of calculations), **verifiable, representative, and consensus-based**. It should also be within a **credible range of sources** and aligned with technical standards and procedural conformity. |
+| **What are the key features for an automated ground truth data generation pipeline?**  | AI should be used to **point out where** it is most valuable to gather primary data and to **gather a wide range** of data. It can also run statistical analysis at scale to provide guidance on data quality issues.                       |
+| **What is the human's role in automated ground truth collection?**                     | The human must be an **expert in the domain** to build guardrails, **own the product carbon footprint (i.e., responsibility)**, and do a **spot-check on AI-escalated red flags** (not every single assumption).                            |
+| **Under what circumstances will you trust the validation result from an AI workflow?** | Trust is based on an **auditable trace of reasoning** and complete **transparency** in the approach and data. A system needs a rigorous methodology, with all assumptions and emission factors associated with a ground truth database.     |
+| **Who should own, maintain, and govern the ground truth database?**                    | The consensus suggests that it should not be in the private domain. A **non-profit organization** structure, learning from other domains like OpenStreetMap, was suggested.                                                                 |
+
+**Groundtruth data creation**
+
+
+
+
+### For more details, please read the full summary [here](https://docs.google.com/document/d/1empRD6m71BJ8kgIowzI8YblMx21TuBwQeNZBzh3zfBM/edit?tab=t.0) 
+
+-----------
 ## Overview
 In an era where artificial intelligence (AI) is increasingly integrated into life cycle assessment (LCA), verifying the integrity and trustworthiness of LCA results has become paramount. This verifiability is the foundation for deriving actionable solutions from LCA to decarbonize business operations, product manufacturing, and supply chain networks through data-driven prioritization and targeted interventions.
 
