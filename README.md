@@ -1,6 +1,6 @@
 # AI4LCA Workshop 2026: Deriving Actions for Decarbonization from Verifiable LCAs
 <p align="center">
-  <img src="https://github.com/qtu-UBC/AI4LCA_Workshop_2026/blob/main/workshop%20materials/Climate%20Pledge%20Arena.jpg" alt="Reception at Climate Pledge Arena" width="1000">
+  <img src="workshop materials/Climate Pledge Arena.jpg" alt="Reception at Climate Pledge Arena" width="1000">
 </p>
 
 **Disclaimer: The following summary is generated using AI tools (e.g, ChatGPT, Google Gemini) and revised by workshop organizers**
